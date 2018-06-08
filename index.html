@@ -38,15 +38,57 @@
 		#hero{
 			text-align: center;
 			background-color: #1E3544;
-			background-image: url(/img/profile-01.jpg);
+			background: linear-gradient(
+      						rgba(28, 0, 0, 0.36), 
+      						rgba(0, 0, 14, 0.45)
+    					),
+						url(https://csejbm.github.io/img/profile-01.jpg);
+			background-size: 100%;
 			color: #FFFFFF;
 		}
 		#about{
-			background-color: #506474;
+			background-color: #6D7D89;
+			background: linear-gradient(
+      						rgba(151, 81, 8, 0.6), 
+      						rgba(20, 24, 105, 0.6)
+    					),
+						url(https://csejbm.github.io/img/profile-02.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		#about h2{
+			margin: 0px;
+			padding: 63px 0 42px 0;
 		}
 		#about p{
 			margin: 0px;
-			padding: 50% 0 50% 0;
+			margin-left: 42px;
+			padding: 0 0 84px 0;
+			text-align: left;
+			max-width: 375px;
+		}
+		#portfolio{
+			background-color: #6D7D89;
+			background: linear-gradient(
+      						rgba(151, 81, 8, 0.6), 
+      						rgba(20, 24, 105, 0.6)
+    					),
+						url(https://csejbm.github.io/img/profile-03.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			text-align: center;
+		}
+		#portfolio h2{
+			margin: 0px;
+			padding: 63px 0 42px 0;
+		}
+		#portfolio p{
+			margin: 0px;
+			margin-left: 42px;
+			padding: 0 0 45% 0;
+			text-align: left;
+			max-width: 375px;
 		}
 	</style>
 </head>
@@ -56,16 +98,33 @@
 			<a>Joseph Martin</a>
 		</div>
 		<div style="text-align:right; display: inline-block; padding: 14px;">
-			<a href="#Hero">Home</a>
-			<a href="#About">About</a>
-			<a href="#Portfolio">Portfolio</a>
+			<a href="#hero">Home</a>
+			<a href="#about">About</a>
+			<a href="#portfolio">Portfolio</a>
 		</div>
 	</div>
 	<div id="hero">
 		<h1>I'm a creative problem solver in San Diego who loves researching new topics and building cool products.</h1>
 	</div>
 	<div id="about">
-		<p>About</p>
+		<div>
+			<h2>About</h2>
+		</div>
+		<div>
+			<p>
+				I was born and raised in Southern California with a love of all the natural attractions my home has to offer.
+				<br><br>
+				I attended the University of California, San Diego where I received a B.S. in Cognitive Science.  The Cognitive Science program is an interdisciplinary field of study which allowed me to take courses in Psychology, Neuroscience, Computer Science, Linguistics, and Philosophy.  While in school I took a keen interest in the Distributed Cognition framework and the role that interactions with language, technology, art, and society play in shaping the mind and its processes.
+				<br><br>
+				I believe that by approaching challenges from a user-centered perspective we can design solutions that extend the realm of human ability and give people more time to engage in the world around them.
+			</p>
+		</div>
+		<div>
+			<img src="https://csejbm.github.io/img/headshot_icon.jpg" style="width:200px; border-radius:40px;">
+		</div>
+	</div>
+	<div id="portfolio">
+		<h2>Work</h2>
 	</div>
 </body>
 </html>
