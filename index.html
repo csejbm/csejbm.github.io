@@ -2,17 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Joseph Martin</title>
 	<link rel="stylesheet"
     	      href="https://fonts.googleapis.com/css?family=Montserrat">
 	<style>
 		body{
 			font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetic Nueue", Helvetica, Arial, sans-serif;
+			margin: 0px;
+			color: #FFFFFF;
+		}
+		a{
+			text-decoration: none;
+			color: #FFFFFF;
+			padding: 7px;
+		}
+		h1{
+			margin: auto;
+			padding-top: 25%;
+			padding-bottom: 35%;
+			max-width: 91%;
+		}
+		#header{
+			background-color: #1E3544;
+			color: #FFFFFF;
+			text-align: right;
+			width: 100%;
+			position: fixed;
+		}
+		#hero p{
+			max-width: 475px;
+			padding-bottom: 15%;
+			margin: auto;
+		}
+		#hero{
+			text-align: center;
+			background-color: #1E3544;
+			background-image: url(/img/profile-01.jpg);
+			color: #FFFFFF;
+		}
+		#about{
+			background-color: #506474;
+		}
+		#about p{
+			margin: 0px;
+			padding: 50% 0 50% 0;
 		}
 	</style>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<p>I'm Joseph Martin, and I'm creative in San Diego who loves researching new topics and building cool products.</p>
+	<div id="header">
+		<div style="text-align:left; display: inline-block; float: left; padding: 14px;">
+			<a>Joseph Martin</a>
+		</div>
+		<div style="text-align:right; display: inline-block; padding: 14px;">
+			<a href="#Hero">Home</a>
+			<a href="#About">About</a>
+			<a href="#Portfolio">Portfolio</a>
+		</div>
+	</div>
+	<div id="hero">
+		<h1>I'm a creative problem solver in San Diego who loves researching new topics and building cool products.</h1>
+	</div>
+	<div id="about">
+		<p>About</p>
+	</div>
 </body>
 </html>
