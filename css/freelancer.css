@@ -64,7 +64,7 @@ section h2 {
   max-width: 296px;
   margin: auto;
 }
-button.bg-primary:focus {
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover{
   background-color: #99256B !important;
 }
 
