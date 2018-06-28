@@ -60,6 +60,13 @@ section h2 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+#greeting {
+  max-width: 296px;
+  margin: auto;
+}
+button.bg-primary:focus {
+  background-color: #99256B !important;
+}
 
 @media (min-width: 992px) {
   section h2 {
@@ -67,7 +74,8 @@ section h2 {
     line-height: 2.5rem;
   }
   #greeting {
-    max-width: 640px;
+    width: 640px !important;
+    max-width: 640px !important;
   }
 }
 
@@ -197,9 +205,6 @@ header.masthead h2 {
   }
 }
 
-#greeting {
-  margin: auto;
-}
 
 .portfolio {
   background-color: #731B50 !important;
@@ -237,7 +242,7 @@ header.masthead h2 {
     margin-bottom: 30px;
   }
   #greeting {
-    max-width: 640px;
+    max-width: 510px;
   }
 }
 
