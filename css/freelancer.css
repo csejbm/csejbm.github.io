@@ -40,7 +40,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #6d7d89;
+  background-color: #1E3544;
 }
 
 hr.star-dark {
@@ -65,6 +65,9 @@ section h2 {
   section h2 {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+  #greeting {
+    max-width: 640px;
   }
 }
 
@@ -115,7 +118,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #6d7d89;
+  color: #99256B;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -123,7 +126,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #6d7d89;
+  color: #99256B;
 }
 
 #mainNav .navbar-toggler {
@@ -150,11 +153,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #6d7d89;
+    background: #99256B;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #6d7d89;
+    background: #99256B;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -194,8 +197,12 @@ header.masthead h2 {
   }
 }
 
+#greeting {
+  margin: auto;
+}
+
 .portfolio {
-  background-color: #a4c639 !important;
+  background-color: #731B50 !important;
   margin-bottom: -15px;
 }
 
@@ -211,7 +218,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(139, 182, 44, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -228,6 +235,9 @@ header.masthead h2 {
   }
   .portfolio .portfolio-item {
     margin-bottom: 30px;
+  }
+  #greeting {
+    max-width: 640px;
   }
 }
 
@@ -265,6 +275,18 @@ header.masthead h2 {
   .portfolio-modal .portfolio-modal-dialog h2 {
     font-size: 3rem;
   }
+}
+
+#about {
+      background-color: #1E3544;
+      background: linear-gradient(
+                  rgba(28, 0, 0, 0.75), 
+                  rgba(0, 0, 14, 0.75)
+              ),
+            url(https://csejbm.github.io/img/profile-01.jpg) top no-repeat,
+            url(https://csejbm.github.io/img/profile-02.jpg) center no-repeat,
+            url(https://csejbm.github.io/img/profile-03.jpg) bottom no-repeat;
+      background-size: 100%;
 }
 
 .floating-label-form-group {
@@ -314,7 +336,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #6d7d89;
+  color: #1E3544;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -333,11 +355,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #6d7d89;
+  color: #1E3544;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #8BB62C;
 }
 
 .btn {
@@ -345,29 +367,29 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #6d7d89 !important;
-}
-
-.bg-secondary {
   background-color: #1E3544 !important;
 }
 
-.text-primary {
-  color: #6d7d89 !important;
+.bg-secondary {
+  background-color: #111E37 !important;
 }
 
-.text-secondary {
+.text-primary {
   color: #1E3544 !important;
 }
 
+.text-secondary {
+  color: #111E37 !important;
+}
+
 .btn-primary {
-  background-color: #6d7d89;
-  border-color: #6d7d89;
+  background-color: #688920;
+  border-color: #526B1B;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #8BB62C;
+  border-color: #8BB62C;
 }
 
 .btn-secondary {
