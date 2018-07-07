@@ -302,8 +302,8 @@ header.masthead h2 {
                   rgba(0, 0, 14, 0.75)
               ),
             url(https://csejbm.github.io/img/profile-01.jpg) top no-repeat,
-            url(https://csejbm.github.io/img/profile-02.jpg) center no-repeat,
-            url(https://csejbm.github.io/img/profile-03.jpg) bottom no-repeat;
+            url(https://csejbm.github.io/img/profile-03.jpg) bottom no-repeat,
+            url(https://csejbm.github.io/img/profile-02.jpg) center repeat;
       background-size: 100%;
 }
 
